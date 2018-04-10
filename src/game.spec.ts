@@ -1,17 +1,18 @@
-import { Tictactoe } from './game';
+import { Game } from './game';
 import { expect } from 'chai';
 import 'mocha';
 
 
 describe('Counting words in a sentence', () => {
-    let tictactoe;
+    let game;
 
     beforeEach(() => {
-        tictactoe = new Tictactoe;
+        game = new Game();
     })
 
-    it('should return zero when input string is null', () => {
-        expect(true).to.be.false;
+    it('should implement the contract', () => {
+        console.log(game);
+        expect(game).to.be.true;
     });
 
     // it('should return zero when input string is empty', () => {
