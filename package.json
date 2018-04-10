@@ -1,7 +1,7 @@
 {
-  "name": "katastringcalculator",
+  "name": "Tictactoe",
   "version": "1.0.0",
-  "description": "String Calculator lesson",
+  "description": "Implement gameplay logic for the Tic Tac Toe game.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
